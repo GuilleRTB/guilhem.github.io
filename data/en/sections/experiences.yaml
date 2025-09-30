@@ -11,63 +11,56 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Intent Technologies
+    url: "https://intent.tech/"
+    location: Toulouse, Occitanie, France
+    logo: /images/sections/experiences/intent.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: "Intent Technologies is a leading company in data management and smart building solutions. Its platform centralizes, structures, and leverages data from equipment, services, and user interactions to enhance energy efficiency, predictive maintenance, and overall occupant experience."
+
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: R&D AI Engineer
+    start: Mai 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Sepb2025
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - "Conducted applied research on **Large Language Models (LLMs)** to enable automatic document analysis and information extraction."
+    - "Designed and implemented deep learning models for document classification (**CNN, encoder–DNN pipelines**), improving accuracy and scalability for real-world datasets."
+    - "Developed a **multi-agent text-to-SQL** framework combining LLMs with **Retrieval-Augmented Generation (RAG)**, allowing end-users to query databases through **natural language** with higher precision and reliability."
+    - "Collaborated with cross-functional teams to validate models against production requirements and documented research findings for both **academic** and **industrial** audiences."
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Made in Tracker
+    url: "https://madeintracker.com/en"
+    location: Toulouse, Occitanie, France
+    #logo: /images/sections/experiences/company2.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: "Made in Tracker is a company specializing in tracking and analytics solutions for businesses. Their platform provides insights into user behavior and operational efficiency."
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: AI Developer (Volunteer)
+    start: Jun 2024
+    end: Sep 2024
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - "Built an intelligent **chatbot** leveraging **Groq API** and **Firebase**, with a strong emphasis on optimizing **prompt engineering** for contextual accuracy."
+    - "Designed and deployed a **Flask-based API** architecture with multiple endpoints, ensuring efficient interaction between **backend** services and **frontend** interfaces."
+    - "Improved system **scalability** and **robustness** by integrating asynchronous request handling and implementing logging/monitoring solutions."
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
+    name: Institut de Recherche en Informatique de Toulouse (IRIT)
+    url: "https://www.irit.fr/"
     location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    #logo: /images/sections/experiences/company3.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: "Institut de Recherche en Informatique de Toulouse (IRIT) is a research institute focused on computer science and its applications."
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Developer
+    start: May 2024
+    end: Aug 2024
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - "Development of an **innovative** web application for managing **IoT devices** in a smart home, aiming to improve the autonomy of people with disabilities"
+    - "User needs analysis, implementation of an optimized architecture for **efficiency** and **responsiveness**, and research on integrating AI-based features **(LLM/SLM)**."

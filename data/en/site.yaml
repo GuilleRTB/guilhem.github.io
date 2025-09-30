@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Guilhem 's Portfolio
+  title: Guilhem's Portfolio
   type: website
   description: Portfolio and personal blog of Guilhem Ratabouil.
   image: images/author/guilhem.jpg
