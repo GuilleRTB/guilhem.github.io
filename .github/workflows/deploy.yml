@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -26,7 +29,7 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
-      - name: Build Hugo site
+      - name: Build
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
@@ -35,3 +38,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+
