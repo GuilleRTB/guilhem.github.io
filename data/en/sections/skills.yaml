@@ -25,22 +25,22 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Experienced in Python programming for various applications, including machine learning, data analysis, and web development."
   categories: ["basic", "language"]
-  url: "https://golang.org/"
+  url: "https://www.python.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: C, C++
+  logo: /images/sections/skills/c++.png
+  summary: "Basic knowledge of C/C++ with understanding of control structures, functions, pointers, and OOP concepts."
+  categories: ["basic", "language"]
+
+- name: ML libraries
+  logo: /images/sections/skills/ml.png
+  summary: "Familiar with popular ML libraries such as TensorFlow, PyTorch, and Scikit-learn."
+  categories: ["basic", "language"]
+  url: "https://www.tensorflow.org/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -48,11 +48,15 @@ skills:
   categories: ["container"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Robotics, 3d perception, computer vision
+  logo: /images/sections/skills/robotics.png
+  summary: "Practical and theoretical knowledge in robotics, 3d perception, computer vision and Digital image processing (ROS, PnL, YOLO)."
+  categories: ["others"]
+
+- name: Natural Language Processing
+  logo: /images/sections/skills/nlp.png
+  summary: "Practical and theoretical knowledge in Natural Language Processing, chatbots and Automatic Speech Recognition. (nltk, spacy, BERT, RASA, ...)."
+  categories: ["others"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -65,7 +69,3 @@ skills:
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]

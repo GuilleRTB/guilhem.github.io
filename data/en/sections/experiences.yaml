@@ -52,8 +52,8 @@ experiences:
 - company:
     name: Institut de Recherche en Informatique de Toulouse (IRIT)
     url: "https://www.irit.fr/"
-    location: Intern Land
-    #logo: /images/sections/experiences/company3.jpg
+    location: Toulouse, Occitanie, France
+    logo: /images/sections/experiences/irit.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
     overview: "Institut de Recherche en Informatique de Toulouse (IRIT) is a research institute focused on computer science and its applications."
