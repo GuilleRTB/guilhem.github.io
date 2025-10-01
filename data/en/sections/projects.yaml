@@ -8,58 +8,51 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
-
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+- name: Sound Classification heartbeats
+  logo:
+  image: /images/sections/projects/mfcc.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  timeline:
+  repo: https://github.com/GuilleRTB/Classification-de-son-Apprentissage-Automatique
+  summary: Classifying sounds using supervised and unsupervised learning techniques
+  tags: ["MFCC","Random forest","SVM", "k-means"]
+
+- name: Satellite Planning Under Uncertainty
+  logo:
+  image: /images/sections/projects/p2.png
+  role: Owner
+  timeline:
+  repo: https://github.com/paul-sabatier-research-projects/Satellite-planning-under-uncertainty
+  summary: Optimizing satellite planning under uncertain conditions using SCIP and ZIMPL.
+  tags: ["Optimization","Uncertainty","Decision Theory", "SCIP", "ZIMPL"]
+
+- name: Comparison of MLP and CNN
+  logo:
+  image: /images/sections/projects/computerV.png
+  role: Owner
+  timeline:
+  repo: https://github.com/GuilleRTB/Computer-vision-Comparison-of-MLP-and-CNN
+  summary: comparative analysis of two neural network architectures.
+  tags: ["Computer Vision","CNN","MLP"]
+
+- name: Beatbox Classification
+  logo:
+  image: /images/sections/projects/beatbox.png
+  role: Owner
+  timeline:
+  repo: https://github.com/GuilleRTB/Sound-Classification-Beatbox
+  summary: Machine learning in the field of audio processing.
+  tags: ["Audio Processing","supervised learning","unsupervised learning"]
+
+- name: Visual Analytics for LLM Book Content
+  logo:
+  image: /images/sections/projects/clusters.png
+  role: Owner
+  timeline:
+  repo: 
+  summary: This project aims to visualize the content of a book through the lens of tokenization or semantic vectors.
+  tags: ["Visualization","NLP","LLM"]
