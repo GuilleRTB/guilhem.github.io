@@ -19,7 +19,7 @@ Mont Ventoux, also known as the *Giant of Provence*, is legendary for cyclists�
 
 ---
 
-<img src="/posts/blog/montVentoux/images/team.jpg" align="center" title="The team ready to go" width="700">
+<img src="/posts/blog/marathon/images/team2.jpg" align="center" title="The team ready to go" width="700">
 
 ## Before the Race
 
@@ -27,7 +27,7 @@ The adventure started with the classic trail-run ritual: checking the route on a
 
 ---
 
-<img src="/posts/blog/montVentoux/images/mapa.jpeg" align="center" title="Checking the map with my dad" width="600">
+<img src="/posts/blog/marathon/images/mapa2.jpeg" align="center" title="Checking the map with my dad" width="600">
 
 ## The Start: Team Spirit ✌️
 
