@@ -30,6 +30,15 @@ projects:
   summary: Optimizing satellite planning under uncertain conditions using SCIP and ZIMPL.
   tags: ["Optimization","Uncertainty","Decision Theory", "SCIP", "ZIMPL"]
 
+- name: Multi-Agent Trading System
+  logo:
+  image: /images/sections/projects/agent.png
+  role: Owner
+  timeline:
+  repo: https://github.com/Trail-Research/Hedge-fund-LLM
+  summary: Hedge Fund LLM is an automated multi-agent trading system powered by specialized Large Language Models that analyze financial data, news, and social sentiment to generate trading recommendations with integrated risk management.
+  tags: ["Multi-Agent Systems","Trading","LLM"]
+
 - name: Comparison of MLP and CNN
   logo:
   image: /images/sections/projects/computerV.png
