@@ -17,6 +17,8 @@ buttons:
   filter: "basic"
 - name: Language
   filter: "language"
+- name: AI
+  filter: "ai"
 - name: Container
   filter: "container"
 - name: Others
@@ -38,9 +40,15 @@ skills:
 
 - name: ML libraries
   logo: /images/sections/skills/ml.png
-  summary: "Familiar with popular ML libraries such as TensorFlow, PyTorch, and Scikit-learn."
-  categories: ["basic", "language"]
+  summary: "Familiar with popular ML libraries such as TensorFlow, PyTorch, Scikit-learn and LangChain."
+  categories: ["basic", "language", "ai"]
   url: "https://www.tensorflow.org/"
+
+- name: Multi-agent systems
+  logo: /images/sections/skills/ma.png
+  summary: "Practical and theoretical knowledge in multi-agent systems, including agent communication, coordination and collaboration."
+  categories: ["container", "ai"]
+  url: "https://www.docker.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
