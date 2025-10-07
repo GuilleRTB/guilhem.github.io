@@ -21,13 +21,13 @@ experiences:
     overview: "Intent Technologies is a leading company in data management and smart building solutions. Its platform centralizes, structures, and leverages data from equipment, services, and user interactions to enhance energy efficiency, predictive maintenance, and overall occupant experience."
 
   positions:
-  - designation: R&D AI Engineer
+  - designation: AI Engineer
     start: Mai 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: Sepb2025
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Conducted applied research on **Large Language Models (LLMs)** to enable automatic document analysis and information extraction."
+    - "Development of an end-to-end **NLP model** for information extraction and generation from documents. Implementation of all stages of the lifecycle: **design**, **data preparation**, and **evaluation methodology**."
     - "Designed and implemented deep learning models for document classification (**CNN, encoder–DNN pipelines**), improving accuracy and scalability for real-world datasets."
     - "Developed a **multi-agent text-to-SQL** framework combining LLMs with **Retrieval-Augmented Generation (RAG)**, allowing end-users to query databases through **natural language** with higher precision and reliability."
     - "Collaborated with cross-functional teams to validate models against production requirements and documented research findings for both **academic** and **industrial** audiences."
